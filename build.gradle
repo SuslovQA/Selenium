@@ -22,6 +22,7 @@ dependencies {
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.10.2'
     testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.29.0'
     testImplementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.9.3'
+    testImplementation group: 'io.opentelemetry', name: 'opentelemetry-api-incubator', version: '1.46.0-alpha'
 }
 
 test {
