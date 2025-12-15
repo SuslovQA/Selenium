@@ -23,7 +23,6 @@ public class appOrderTest {
 
     @BeforeEach
     void setUp() {
-        driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
 
         options.addArguments("--disable-dev-shm-usage");
